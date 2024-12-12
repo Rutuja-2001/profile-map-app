@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the entire app */
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Profile list and details */
+  .profile-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profile-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .profile-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .map-container {
+    margin-top: 20px;
+  }
+  
+  /* Loading and Error Styles */
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    color: #007bff;
+  }
+  
+  /* Error Page Styles */
+  .error-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .error-container h1 {
+    color: #ff0000;
+    font-size: 2.5rem;
+  }
+  
+  .error-container p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-link:hover {
+    background-color: #2980b9;
+  }
